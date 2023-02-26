@@ -1,4 +1,9 @@
-from django.http import HttpResponse
+from django.http import HttpResponse 
+from django.shortcuts import render
 
-def index(Request):
-    return HttpResponse('Hello there')
+def index(request):
+    return HttpResponse('Hello there') 
+
+def page1(request):
+    return render(request, 'files/mproject.html', {'data': 'test-data'})
+
