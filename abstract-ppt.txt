@@ -1,0 +1,13 @@
+1. title, group members
+2. introduction
+3. about the project
+4. project details brief
+5. system requirements(hardware)
+6. software requirements
+7. purpose of the project
+8. abstract of the project
+9. i/o design
+10. zero level DFD
+11. gantt chart 
+12. conclusion
+(points only)
