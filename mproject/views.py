@@ -5,5 +5,6 @@ def index(request):
     return HttpResponse('Hello there') 
 
 def page1(request):
-    return render(request, 'files/mproject.html', {'data': 'test-data'})
+    title = 'HI THERE'
+    return render(request, 'files/mproject.html', {'data': title})
 
