@@ -1,6 +1,10 @@
 {%block html-title%}BACKEND-PYTHON{%endblock%}
 
 {%block body%}
-<h1>BACKEND-PYTHON</h1>
-<p>Demo page for learning backend python</p>
+    <h1>BACKEND-PYTHON</h1>
+    <p>Demo page for learning backend python</p> 
+
+    {% for a in mylist %}
+        <li>{{ a }}</li>
+    {% endfor %}
 {%endblock%}
